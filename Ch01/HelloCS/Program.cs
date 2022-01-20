@@ -6,7 +6,10 @@ namespace HelloCS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Hello, .Net 5.0!");
+            Console.ResetColor ();
         }
     }
 }
