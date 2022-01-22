@@ -1,0 +1,22 @@
+#!csharp
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("Hello, .NET Interactive!");
+Console.Write("Color not change");
+
+#!csharp
+
+#!about
+
+#!markdown
+
+# Chapter1 - Hello, C#! Welcome, .NET!
+Mixing *rich* **text** and code is cool!
+
+#!csharp
+
+int number = 8;
+
+#!csharp
+
+Console.WriteLine(number);
